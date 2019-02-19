@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Web Con Nav</title>
+</head>
+<body>
+    <header>
+    <div class="container">
+            <div class="row">
+                <div class="col-12 mt-4 d-flex justify-content-end">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">Inicio</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Secciones</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Ductus</a>
+                                <a href="#" class="dropdown-item">Materiales</a>
+                                <a href="" class="dropdown-item">Trucos y consejos</a>
+                                <a href="#" class="dropdown-item">Libros</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Tutoriales</a>
+                            <div class="div dropdown-menu">
+                                <a href="#" class="dropdown-item">Gotica</a>
+                                <a href="#" class="dropdown-item">Lettering</a>
+                                <a href="#" class="dropdown-item">Graffiti Styles</a>
+                            </div>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" id="btn-contacto">Contacto</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+
+        </header>
+
+        <main class="container">
+            <div class="row mt-4">
+                <div class="col">
+                    <img src="img/cover.jpg" alt="">
+                </div>
+            </div>
+
+            <h2 class="mt-4 mb-4" style="text-align: center; padding:15px 0;" >INTRODUCCION AL LETTERING</h2>
+            <hr>
+
+                <!-- <div class="row mt-4">
+                    <div class="col-4"> -->
+                        <div class="card-deck mt-4" style="padding:40px 0;">
+                        <div class="card">
+                            <img src="img/2.jpg" class="card-img-top img-fluid" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;">Materiales</h5>
+                                <hr>
+                                <p class="card-text">En esta seccion veremos que materiales debemos usar y cuales son los mas recomendados</p>
+                                <a href="#" class="btn btn-primary btn-lg btn-block">Ver mas</a>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+
+                    <!-- <div class="col-4"> -->
+                        <div class="card">
+                            <img src="img/3.jpg" alt="" class="card-img-top img-fluid">
+                            <div class="card-body"> 
+                                <h5 class="card-title" style="text-align: center;">Estructura</h5>
+                                <hr>
+                                <p class="card-text">En esta seccion aprenderemos a componer nuestras propias estructuras</p>
+                                <a href="#" class="btn btn-primary btn-lg btn-block">Ver mas</a>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+
+                        <!-- <div class="col-4"> -->
+                            <div class="card">
+                                <img src="img/4.jpg" class="card-img-top img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center;">Ductus</h5>
+                                    <hr>
+                                    <p class="card-text">En Esta seccion podras ver las diferentes formas de crear nuestras propias letras así como algunas ya creadas por otros autores</p>
+                                    <a href="#" class="btn btn-primary btn-lg btn-block">Ver mas</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                <!-- </div> -->
+
+                <div class="container">
+                    <div class="row mt-3">
+                        <div class="col">
+                            <h2 style="text-align: center; margin-bottom: 20px;">CONTACTO</h2>
+                            <hr style="margin-bottom: 50px;">
+                            <section id="contacto">
+                            <form action="">
+                                <div class="form-group row">
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <label for="nombre">Nombre</label>
+                                        <input type="text" class="form-control" placeholder="Nombre" id="nombre">
+                                    </div>
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <label for="email">Correo</label>
+                                        <input type="email" class="form-control" placeholder="Correo" id="correo">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-12 col-md-12 mb-3">
+                                        <label for="mensaje">Mensaje</label>
+                                        <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Mensaje" ></textarea>
+                                    </div>
+
+                                    <div class="col-12 col-md-12 mb-3">
+                                        <input type="submit" value="Enviar" class=" boton btn btn-primary btn-block btn-lg mt-5">
+                                    </div>
+                                </div>
+                            </form>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-12 bg-light social" style="padding: 20px;">
+                            <a href="#" class="github"><i class="fab fa-github"></i></a>
+                            <a href="#" class="github"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="github"><i class="fab fa-behance"></i></a>
+
+                        </div>
+                    </div>
+                </footer>
+            </main>
+        </div>
+    </body>
+    </html>
+            
+
+    
